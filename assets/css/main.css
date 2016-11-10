@@ -1,0 +1,28 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/*= Main
+==============================================*/
+body {
+  font-family: Helvetica, Arial, sans-serif; }
+
+#container {
+  width: 40%;
+  margin: 0 auto;
+  padding: 1em; }
+
+#weather {
+  text-align: center; }
+  #weather h2 {
+    font-size: 5em;
+    font-weight: 100; }
+  #weather ul {
+    list-style: none; }
+    #weather ul li {
+      display: inline-block;
+      border-radius: 6px;
+      background: #eee;
+      margin: 0 2em;
+      padding: 1em; }
